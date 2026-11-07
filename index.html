@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dra. Helena Martins | Nutrição & Estética Integrativa</title>
+  <meta name="description" content="Consultas de nutrição presenciais em Brasília e online, com acompanhamento individual. Agende pelo WhatsApp.">
+  <meta name="theme-color" content="#3B4D3E">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dra. Helena Martins | Nutrição & Estética Integrativa">
+  <meta property="og:description" content="Consultas presenciais em Brasília e online. Agende pelo WhatsApp.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=1200&q=80">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #FAF8F5; --card: #FFFFFF; --text: #1F2421; --muted: #5C6560; --accent: #3B4D3E; --accent-light: #EBF0EC; --gold: #C5A880; --line: rgba(0,0,0,.08); }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; padding-bottom: 90px; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .container { max-width: 480px; margin: 0 auto; padding: 24px 20px; }
+    .hero { text-align: center; margin-bottom: 28px; }
+    .avatar { width: 115px; height: 115px; border-radius: 50%; object-fit: cover; border: 3px solid var(--gold); padding: 3px; background: #fff; margin-bottom: 14px; box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    .badge { display: inline-block; background: var(--accent-light); color: var(--accent); font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 20px; margin-bottom: 8px; }
+    h1 { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 600; margin-bottom: 6px; }
+    .bio { font-size: 14px; color: var(--muted); max-width: 340px; margin: 0 auto 20px; }
+    .btn-primary { display: flex; align-items: center; justify-content: center; width: 100%; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; font-size: 15px; padding: 16px 24px; border-radius: 14px; box-shadow: 0 8px 20px rgba(59,77,62,.22); margin-bottom: 12px; }
+    .btn-primary:active { transform: scale(.98); }
+    .btn-secondary { display: block; width: 100%; background: var(--card); color: var(--text); text-decoration: none; font-weight: 500; font-size: 14px; padding: 14px 20px; border-radius: 14px; border: 1px solid var(--line); text-align: center; }
+    section { margin-bottom: 30px; }
+    .section-title { font-family: 'Cormorant Garamond', serif; font-size: 24px; margin-bottom: 14px; }
+    .txt { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
+    .list { list-style: none; display: grid; gap: 8px; }
+    .list li { font-size: 13px; padding-left: 22px; position: relative; color: var(--text); }
+    .list li::before { content: "✓"; position: absolute; left: 0; color: var(--gold); font-weight: 600; }
+    .steps { display: grid; gap: 12px; }
+    .step-card { background: var(--card); padding: 16px; border-radius: 16px; border: 1px solid var(--line); display: flex; gap: 14px; align-items: flex-start; }
+    .step-num { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 600; color: var(--gold); background: #FAF6F0; width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex: none; }
+    .step-card h3 { font-size: 15px; margin-bottom: 3px; }
+    .step-card p { font-size: 13px; color: var(--muted); }
+    .info { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 6px 16px; margin-bottom: 12px; }
+    .row { display: flex; gap: 12px; padding: 11px 0; font-size: 14px; border-bottom: 1px solid var(--line); }
+    .row:last-child { border-bottom: 0; }
+    .row span { width: 22px; text-align: center; flex: none; }
+    .row small { display: block; color: var(--muted); font-size: 12px; }
+    .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .product-card { background: linear-gradient(135deg, #2A382D 0%, #3B4D3E 100%); color: #fff; border-radius: 18px; padding: 20px; display: flex; gap: 16px; align-items: center; }
+    .product-img { width: 85px; height: 110px; object-fit: cover; border-radius: 10px; flex: none; }
+    .product-card h3 { font-size: 16px; margin-bottom: 4px; }
+    .product-card p { font-size: 12px; opacity: .9; margin-bottom: 12px; }
+    .btn-gold { display: inline-block; background: var(--gold); color: #1F2421; font-weight: 600; font-size: 12px; padding: 8px 14px; border-radius: 8px; text-decoration: none; }
+    details { background: var(--card); border-radius: 12px; margin-bottom: 10px; border: 1px solid var(--line); }
+    summary { font-weight: 600; font-size: 14px; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 14px 16px; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; font-size: 18px; color: var(--muted); }
+    details[open] summary::after { content: '−'; }
+    details p { font-size: 13px; color: var(--muted); padding: 0 16px 14px; }
+    .final { text-align: center; }
+    .final .txt { margin-bottom: 14px; }
+    footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 8px; }
+    footer a { color: var(--accent); font-weight: 600; }
+    .anim .reveal { opacity: 0; transform: translateY(22px); transition: opacity .6s ease, transform .6s ease; transition-delay: var(--d, 0ms); }
+    .anim .reveal.in { opacity: 1; transform: none; }
+    .float { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 20px calc(12px + env(safe-area-inset-bottom, 0px)); background: linear-gradient(180deg, transparent, var(--bg) 40%); display: none; }
+    .float.show { display: block; }
+    .float .btn-primary { max-width: 440px; margin: 0 auto; background: #1FA855; box-shadow: 0 8px 20px rgba(31,168,85,.3); }
+  </style>
+</head>
+<body>
+  <!-- ===== CONFIGURAÇÃO: edite só esta parte para cada profissional ===== -->
+  <script>
+    const CONFIG = {
+      tratamento: "Dra.",                          // confirme com o profissional como deve aparecer o título
+      nome: "Helena Martins",
+      registro: "CRN-1 nº 00000",                  // coloque o registro real, com a regional
+      local: "Brasília & Online",
+      animacao: true,                              // true = itens aparecem suavemente ao rolar; false = desliga
+      foto: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=400&q=80",
+      bio: "Nutrição com foco em hábitos sustentáveis, saúde hormonal e longevidade, sem dietas restritivas.",
+      whatsapp: "5561999999999",                   // DDI + DDD + número
+      mensagem: "Olá! Gostaria de agendar uma consulta com a Dra. Helena.",
+      instagram: "dra.helenamartins",
+      desenvolvedorInstagram: "marisabatier.co",
+      sobre: "Atendo adultos em consultório e por vídeo, com acompanhamento individual e um plano feito para a sua rotina.",
+      formacao: [
+        "Graduação em Nutrição, Universidade (ano)",
+        "Pós-graduação em Nutrição Clínica Funcional",
+        "Especialização em Saúde Hormonal"
+      ],
+      passos: [
+        { t: "Avaliação completa", d: "Análise de exames, rotina, sono e composição corporal, para entender seu ponto de partida." },
+        { t: "Plano no aplicativo", d: "Cardápio personalizado no seu celular, com lista de compras e opções de substituição." },
+        { t: "Acompanhamento por 60 dias", d: "Contato direto pelo WhatsApp para ajustes e dúvidas durante o acompanhamento." }
+      ],
+      atendimento: {
+        duracao: "Consulta inicial de 1h30",
+        endereco: "Centro Clínico Sudoeste, Sala 412 · Brasília/DF",
+        estacionamento: "Estacionamento no local",
+        horario: "Seg a sex, das 8h às 18h",
+        online: "Consulta online por vídeo, com a mesma duração da presencial"
+      },
+      ebook: {
+        titulo: "E-book: Receitas do Dia a Dia",
+        desc: "50 receitas práticas e rápidas para a rotina, sem abrir mão do sabor.",
+        preco: "R$ 47",
+        foto: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=300&q=80",
+        link: ""                                   // link de pagamento (Hotmart, Kiwify, Pix). Vazio = pedido por WhatsApp
+      },
+      faq: [
+        { p: "Atende por plano de saúde?", r: "Os atendimentos são particulares, para garantir consultas longas e acompanhamento próximo. Emitimos nota fiscal para você solicitar reembolso ao seu convênio, se o plano permitir." },
+        { p: "Como funciona a consulta online?", r: "É feita por chamada de vídeo, com a mesma duração da presencial. Enviamos antes um guia para tirar as medidas em casa." },
+        { p: "Quanto tempo leva para conseguir a primeira consulta?", r: "Os horários são confirmados pelo WhatsApp. Informe sua preferência de dia e período que sugerimos as opções livres." },
+        { p: "Como funciona o retorno?", r: "O acompanhamento inclui contato pelo WhatsApp durante 60 dias e retornos para ajustar o plano conforme a sua evolução." },
+        { p: "Posso remarcar ou cancelar?", r: "Sim, com no mínimo 24 horas de antecedência. Avisos fora desse prazo podem ter o valor da consulta cobrado, pois o horário foi reservado para você." },
+        { p: "Quais as formas de pagamento?", r: "Pix e cartão de crédito. O pagamento é combinado ao confirmar o horário." },
+        { p: "Onde fica o consultório?", r: "No Centro Clínico Sudoeste, Sala 412, em Brasília/DF, com estacionamento no local. Toque em “Ver no mapa” na seção Atendimento." }
+      ]
+    };
+  </script>
+
+  <div class="container">
+    <div class="hero" id="hero">
+      <img class="avatar" id="foto" alt="">
+      <div><span class="badge" id="badge"></span></div>
+      <h1 id="nome"></h1>
+      <p class="bio" id="bio"></p>
+      <a class="btn-primary" id="cta1" target="_blank" rel="noopener">Agendar consulta</a>
+      <a class="btn-secondary" href="#metodo">Ver como funciona o acompanhamento</a>
+    </div>
+
+    <section id="sobre">
+      <h2 class="section-title">Sobre</h2>
+      <p class="txt" id="sobreTxt"></p>
+      <ul class="list" id="formacao"></ul>
+    </section>
+
+    <section id="metodo">
+      <h2 class="section-title">Como funciona a consulta</h2>
+      <div class="steps" id="passos"></div>
+    </section>
+
+    <a class="btn-primary" id="cta2" target="_blank" rel="noopener">Agendar consulta</a>
+
+    <section id="atendimento" style="margin-top:30px">
+      <h2 class="section-title">Atendimento</h2>
+      <div class="info" id="info"></div>
+      <div class="btns">
+        <a class="btn-secondary" id="mapa" target="_blank" rel="noopener">Ver no mapa</a>
+        <a class="btn-secondary" id="ig" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
+
+    <section id="materiais">
+      <h2 class="section-title">Materiais</h2>
+      <div class="product-card">
+        <img class="product-img" id="ebFoto" alt="">
+        <div>
+          <h3 id="ebTitulo"></h3>
+          <p id="ebDesc"></p>
+          <a class="btn-gold" id="ebBtn" target="_blank" rel="noopener"></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="duvidas">
+      <h2 class="section-title">Dúvidas frequentes</h2>
+      <div id="faq"></div>
+    </section>
+
+    <section class="final" id="final">
+      <h2 class="section-title">Vamos conversar?</h2>
+      <p class="txt">Envie uma mensagem e escolha o melhor horário para você.</p>
+      <a class="btn-primary" id="cta3" target="_blank" rel="noopener">Agendar consulta</a>
+    </section>
+
+    <footer>Desenvolvido por <a id="credito" target="_blank" rel="noopener"></a></footer>
+  </div>
+
+  <div class="float" id="float"><a class="btn-primary" id="ctaF" target="_blank" rel="noopener">Agendar pelo WhatsApp</a></div>
+
+  <script>
+    const C = CONFIG, A = C.atendimento, E = C.ebook;
+    const $ = id => document.getElementById(id);
+    const wa = t => 'https://wa.me/' + C.whatsapp + '?text=' + encodeURIComponent(t);
+
+    document.title = C.tratamento + ' ' + C.nome + ' | Nutrição';
+    $('foto').src = C.foto; $('foto').alt = C.tratamento + ' ' + C.nome;
+    $('badge').textContent = C.registro + ' · ' + C.local;
+    $('nome').textContent = C.tratamento + ' ' + C.nome;
+    $('bio').textContent = C.bio;
+    ['cta1', 'cta2', 'cta3', 'ctaF'].forEach(id => $(id).href = wa(C.mensagem));
+    $('sobreTxt').textContent = C.sobre;
+    $('formacao').innerHTML = C.formacao.map(f => '<li>' + f + '</li>').join('');
+    $('passos').innerHTML = C.passos.map((p, i) => '<div class="step-card"><div class="step-num">0' + (i + 1) + '</div><div><h3>' + p.t + '</h3><p>' + p.d + '</p></div></div>').join('');
+
+    const row = (i, t, s) => '<div class="row"><span>' + i + '</span><div>' + t + (s ? '<small>' + s + '</small>' : '') + '</div></div>';
+    $('info').innerHTML = row('⏱️', A.duracao) + row('📍', A.endereco, A.estacionamento) + row('🕒', A.horario) + row('💻', A.online);
+    $('mapa').href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(A.endereco);
+    $('ig').href = 'https://instagram.com/' + C.instagram;
+
+    $('ebFoto').src = E.foto; $('ebFoto').alt = E.titulo;
+    $('ebTitulo').textContent = E.titulo; $('ebDesc').textContent = E.desc;
+    $('ebBtn').textContent = 'Comprar por ' + E.preco;
+    $('ebBtn').href = E.link || wa('Quero comprar o ' + E.titulo);
+
+    $('faq').innerHTML = C.faq.map(f => '<details><summary>' + f.p + '</summary><p>' + f.r + '</p></details>').join('');
+    $('credito').textContent = '@' + C.desenvolvedorInstagram;
+    $('credito').href = 'https://instagram.com/' + C.desenvolvedorInstagram;
+
+    // botão flutuante: aparece depois do primeiro botão e some perto do final
+    let heroOut = false, endIn = false;
+    const upd = () => $('float').classList.toggle('show', heroOut && !endIn);
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([e]) => { heroOut = !e.isIntersecting; upd(); }).observe($('cta1'));
+      new IntersectionObserver(([e]) => { endIn = e.isIntersecting; upd(); }).observe($('final'));
+    }
+
+    // itens aparecem aos poucos enquanto a pessoa rola
+    if (C.animacao && 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('anim');
+      const els = document.querySelectorAll('.section-title, .txt, .list, .step-card, .info, .btns, .product-card, details, #cta2, #final .btn-primary');
+      els.forEach(el => {
+        el.classList.add('reveal');
+        const k = [...el.parentNode.children].filter(x => x.classList.contains('reveal')).indexOf(el);
+        el.style.setProperty('--d', Math.min(k, 4) * 80 + 'ms');
+      });
+      const io = new IntersectionObserver(list => list.forEach(e => {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('in'); io.unobserve(e.target);
+        setTimeout(() => e.target.classList.remove('reveal', 'in'), 1000);
+      }), { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+      els.forEach(el => io.observe(el));
+    }
+  </script>
+</body>
+</html>
